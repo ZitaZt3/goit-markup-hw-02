@@ -1,7 +1,8 @@
 /* =========HEADER======== */
 body {
-    font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #434455; 
+    background-color: #FFFFFF;
 }
 
 ul {
@@ -24,28 +25,28 @@ a {
 
 
 .header-logo {
-    color: #2E2F42;
-        font-family: Raleway;
+    color: #4d5ae5;
+        font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
 }
-.header-logo-iris {
-    color: #4D5AE5;
+.header-logo-navy {
+    color:#2E2F42;
 }
 
 .header-menu-link {
     color:#2E2F42;
         font-size: 16px;
         font-weight: 500;
-        line-height: 1,5;
+        line-height: 1.5;
         letter-spacing: 0.02em;
 }
 
 .header-menu-link:hover, .header-menu-link:focus {
-    color: #4D5AE5;
+    color: #404bbf;
 }
 
 .address { 
@@ -64,7 +65,7 @@ a {
 }
 
 .address-link:hover, .address-link:focus {
-    color:#4D5AE5; 
+    color:#404bbf; 
 }
 
 /* ===================== */
@@ -84,14 +85,17 @@ a {
 
 .hero-btn {
     color: #FFF;
+        font-family: "Roboto", sans-serif;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+    cursor: pointer;
 }
 
 .hero-btn:hover, .hero-btn:focus {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 
 /* ==================== */
@@ -176,7 +180,9 @@ a {
         text-transform: capitalize;
 }
 
-.portfolio-list {}
+.portfolio-list {
+    background-color: #FFFFFF;
+}
 
 .portfolio-item {}
 
@@ -187,7 +193,7 @@ a {
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
-        letter-spacing: 0.02px;
+        letter-spacing: 0.02em;
 }
 
 .portfolio-text {
@@ -206,17 +212,17 @@ a {
 }
 
 .footer-logo-link {
-    color:#F4F4FD;
-    font-family: Raleway;
+    color:#4d5ae5;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
-.footer-logo-iris {
-    color:#4D5AE5;
+.footer-logo-navy {
+    color:#f4f4fd; 
 }
 
 .footer-text {
